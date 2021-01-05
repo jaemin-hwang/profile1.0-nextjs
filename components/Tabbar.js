@@ -56,22 +56,30 @@ export default function Tabbar() {
     };
 
     return (
-        <div className={classes.root}>
+        <div className={classes.root} style={{width: "100%"}}>
             <AppBar position="static">
-                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
-                    <Tab label="Item Three" {...a11yProps(2)} />
+                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" style={{textAlign:"right"}}>
+                    <Tab label="Home" {...a11yProps(0)} />
+                    <Tab label="About" {...a11yProps(1)} />
+                    <Tab label="Resume" {...a11yProps(2)} />
+                    <Tab label="Education" {...a11yProps(3)} />
+                    <Tab label="Contact" {...a11yProps(4)} />
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
-                Item One
+                메인페이지
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Item Two
+                간단한 소개
             </TabPanel>
             <TabPanel value={value} index={2}>
-                Item Three
+                경력사항?
+            </TabPanel>
+            <TabPanel value={value} index={3}>
+                교육사항
+            </TabPanel>
+            <TabPanel value={value} index={4}>
+                연락처
             </TabPanel>
         </div>
     );
