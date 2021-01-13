@@ -4,7 +4,6 @@
     <list default="true" id="9b0cab5a-a26e-4762-b1be-0d00a32ff541" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Tabbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tabbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609668675258</updated>
       <workItem from="1609668677169" duration="1189000" />
-      <workItem from="1609822267910" duration="307000" />
+      <workItem from="1609822267910" duration="948000" />
+      <workItem from="1610542089580" duration="823000" />
     </task>
     <servers />
   </component>

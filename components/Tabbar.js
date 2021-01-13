@@ -6,6 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import MainPage from "./MainPage";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -43,8 +44,13 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        backgroundColor: theme.palette.background.paper,
     },
+
+    indicator: {
+        backgroundColor: '#fcb835',
+        height:"5px",
+        borderRadius:"20px 20px 20px 20px",
+    }
 }));
 
 export default function Tabbar() {
@@ -57,8 +63,12 @@ export default function Tabbar() {
 
     return (
         <div className={classes.root} style={{width: "100%"}}>
-            <AppBar position="static">
-                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" style={{textAlign:"right"}}>
+            <AppBar position="static" style={{backgroundColor: "#000000"}}>
+                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" fullwidth style={{textAlign:"right"}}
+                      classes={{
+                          indicator: classes.indicator
+                      }} >
+
                     <Tab label="Home" {...a11yProps(0)} />
                     <Tab label="About" {...a11yProps(1)} />
                     <Tab label="Resume" {...a11yProps(2)} />
@@ -67,7 +77,7 @@ export default function Tabbar() {
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
-                메인페이지
+                <MainPage />
             </TabPanel>
             <TabPanel value={value} index={1}>
                 간단한 소개
