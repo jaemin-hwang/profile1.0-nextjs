@@ -64,7 +64,7 @@ export default function Tabbar() {
     return (
         <div className={classes.root} style={{width: "100%"}}>
             <AppBar position="static" style={{backgroundColor: "#000000"}}>
-                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" fullwidth style={{textAlign:"right"}}
+                <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" fullwidth centered
                       classes={{
                           indicator: classes.indicator
                       }} >
