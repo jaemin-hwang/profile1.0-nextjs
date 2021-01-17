@@ -48,8 +48,14 @@
       <updated>1609668675258</updated>
       <workItem from="1609668677169" duration="1189000" />
       <workItem from="1609822267910" duration="948000" />
+<<<<<<< HEAD
       <workItem from="1610542089580" duration="945000" />
       <workItem from="1610889669197" duration="732000" />
+=======
+      <workItem from="1610542089580" duration="823000" />
+      <workItem from="1610611853815" duration="204000" />
+      <workItem from="1610625301750" duration="251000" />
+>>>>>>> eb71ed8dfe7238082814ea8b4c646041d30428c5
     </task>
     <servers />
   </component>
@@ -67,5 +73,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2539" height="424" key="GridCell.Tab.0.bottom" timestamp="1610612059932">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.bottom/-1920.209.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1610612059932" />
+    <state width="2539" height="424" key="GridCell.Tab.0.center" timestamp="1610612059930">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.center/-1920.209.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1610612059930" />
+    <state width="2539" height="424" key="GridCell.Tab.0.left" timestamp="1610612059928">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.left/-1920.209.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1610612059928" />
+    <state width="2539" height="424" key="GridCell.Tab.0.right" timestamp="1610612059931">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.right/-1920.209.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1610612059931" />
   </component>
 </project>
