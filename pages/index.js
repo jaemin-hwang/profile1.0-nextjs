@@ -1,9 +1,9 @@
-import Tabbar from "../components/Tabbar";
+import SideTab from "../components/SideTab";
 
 export default function Home() {
   return (
     <div>
-        <Tabbar></Tabbar>
+        <SideTab/>
     </div>
   )
 }
