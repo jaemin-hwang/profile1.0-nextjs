@@ -10,7 +10,11 @@ const useStyles = makeStyles(theme => ({
 
     profile: {
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginLeft: '5%',
+        marginRight: '5%',
+        marginTop: '5%',
+        marginBottom: '5%'
     }
 }));
 
@@ -26,26 +30,14 @@ const Introduce = () => {
                     <img src={profileImage} width={"50%"}/>
                 </div>
                 <div>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
+                    안녕하세요 개발자 황재민입니다.
+
+
+
+                    // scroll 기준으로 탭 변경되게 바꾸자
                 </div>
             </div>
             <div className={classes.profile}>
-                <div>
-                    <img src={profileImage} width={"50%"}/>
-                </div>
                 <div>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
@@ -65,9 +57,6 @@ const Introduce = () => {
             </div>
             <Slide direction={"right"} triggerOnce>
                 <div className={classes.profile}>
-                    <div>
-                        <img src={profileImage} width={"50%"}/>
-                    </div>
                     <div>
                         asdasdasdasdasd<br/>
                         asdasdasdasdasd<br/>
@@ -89,8 +78,23 @@ const Introduce = () => {
 
             <div className={classes.profile}>
                 <div>
-                    <img src={profileImage} width={"50%"}/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
+                    asdasdasdasdasd<br/>
                 </div>
+            </div>
+            <div className={classes.profile}>
                 <div>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
@@ -110,9 +114,6 @@ const Introduce = () => {
             </div>
             <div className={classes.profile}>
                 <div>
-                    <img src={profileImage} width={"50%"}/>
-                </div>
-                <div>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
@@ -130,30 +131,6 @@ const Introduce = () => {
                 </div>
             </div>
             <div className={classes.profile}>
-                <div>
-                    <img src={profileImage} width={"50%"}/>
-                </div>
-                <div>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                    asdasdasdasdasd<br/>
-                </div>
-            </div>
-            <div className={classes.profile}>
-                <div>
-                    <img src={profileImage} width={"50%"}/>
-                </div>
                 <div>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
