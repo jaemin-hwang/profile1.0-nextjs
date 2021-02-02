@@ -25,7 +25,7 @@ const Introduce = () => {
 
     return (
         <div className={classes.root}>
-            <div className={classes.profile}>
+            <div id = "section-a" className={classes.profile}>
                 <div>
                     <img src={profileImage} width={"50%"}/>
                 </div>
@@ -37,7 +37,7 @@ const Introduce = () => {
                     // scroll 기준으로 탭 변경되게 바꾸자
                 </div>
             </div>
-            <div className={classes.profile}>
+            <div id = "section-b" className={classes.profile}>
                 <div>
                     asdasdasdasdasd<br/>
                     asdasdasdasdasd<br/>
@@ -56,7 +56,7 @@ const Introduce = () => {
                 </div>
             </div>
             <Slide direction={"right"} triggerOnce>
-                <div className={classes.profile}>
+                <div id = "section-c" className={classes.profile}>
                     <div>
                         asdasdasdasdasd<br/>
                         asdasdasdasdasd<br/>
